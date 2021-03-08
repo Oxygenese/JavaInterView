@@ -2,28 +2,9 @@
 
 
 
-- [Gitee   在线阅读地址](https://happysnailsunshine.gitee.io/javainterview)（速度更快，图片可以快速加载出来）
-- [Github 在线阅读地址](https://happysnail.cn)（个人域名访问）
-- Github：https://github.com/HappySnailSunshine/JavaInterview.git
-- 码云：https://gitee.com/HappySnailSunshine/JavaInterview.git
 
-
-
-
-## 作者介绍
-
-**作者介绍:**  笔者是19年本科毕业，现在在成都这边做后端开发工作，是一名对技术有追求的开发者。希望记录下自己学习和成长的历程，并和大家一起交流学习。
-
-
-
-## 初心
-
-- 热爱可低岁月漫长，希望可以让分享成为我的一种习惯，也可以让自己在过程中变得更加优秀；
-- 当学习完一个知识点以后，自己做笔记，同时事后要总结，如果自己能把一个知识清晰表达出来的时候，自己也是有很大的收获和成长的；
-- 赠人玫瑰手留余香。
-
-
-
+- [Github 在线阅读地址](https://www.potatozgh.club)（个人域名访问）
+- Github：https://github.com/670017569/JavaInterView.git
 ## 目录
 
 ### 学习知识相关
