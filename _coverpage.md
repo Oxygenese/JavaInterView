@@ -4,5 +4,5 @@
 <h2 align="center">JavaInterview</h2>
 
 
-[GitHub](https://github.com/HappySnailSunshine/JavaInterview.git)
+[GitHub](https://github.com/670017569/JavaInterView.git)
 [开始阅读](#JavaInterview)
