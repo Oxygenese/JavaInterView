@@ -18,11 +18,26 @@ TCP的三次握手有听说过吗？
 
 具体都有哪些？
 
-为什么要握手需要三次，而挥手需要四次？
+为什么TCP协议中握手需要三次，挥手需要四次？
+       握手需要三次，举个简单的例子，我们想一下日常生活中的握手的场景，首先我们要伸出手，当别人看到你伸出手时，别人也会伸出手。这羊当你看到别人的手伸出来，这样你们两才会握手，就建立了三次握手。在CS(Client Sever)模型中
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200219132225686.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTYyMDg4Nw==,size_16,color_FFFFFF,t_70)
+
+①首先C发送SYN（请求同步序列号）
+
+②S在接收到SYN请求后，会向C放送SYN，ACK
+
+③当C接收到SYN，ACK请求时，会进一步发送ACK来确认
+
+通过以上三步，它们就建立了三次握手。
+
+​	假设此时仅建立了两次握手的话，S会以为C已经确认（实际上C根本没有收到S的请求），会不停的发送数据包，造成资源浪费。
 
 有哪些参数，为什么要三次握手？
 
-画图描述？
+**挥手需要四次**，TCP的工作方式是全双工的，①当C发送FIN时，②S接收到请求后，会向C发送ACK，用来确认后，③S发送FIN，此时S关闭，④接着C向S发送ACK，用来确认，此时C关闭。
+![](https://img-blog.csdnimg.cn/20200219132315723.png)
+
 
 
 
