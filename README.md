@@ -1,9 +1,3 @@
-<!--
- * @Title: 
- * @Descripttion: 
- * @Author: zhougonghao
- * @Date: 2021-07-24 19:56:54
--->
 # JavaInterview
 
 
@@ -36,9 +30,13 @@
   - [SpringBoot](./docs/SpringBoot.md)
   - [SpringCloud](./docs/SpringCloud.md)
   - [Mybatis](./docs/Mybatis.md)
+  - [RabbitMQ](./docs/RabbitMQ.md)
 - 工具
   - [Git](./docs/Git.md)
   - [Docker](./docs/Docker.md)
+  - [Centos环境下安装K8S](./docs/Centos&kubernetes.md)
+  - [K8S之Helm安装](./docs/helm.md)
+  - [K8S之简单使用](./docs/k8s.md)
   - [Linux](./docs/Linux.md)
   - [Utils常用工具](./docs/Utils.md)
   
